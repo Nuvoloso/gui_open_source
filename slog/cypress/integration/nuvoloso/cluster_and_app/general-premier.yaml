@@ -1,0 +1,44 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: general-premier-app
+  labels:
+    name: general-premier-app
+spec:
+  containers:
+  - resources:
+    name: general-premier-app
+    image: nginx
+    volumeMounts:
+    - mountPath: /datadir
+      name: datavol
+  volumes:
+    - name: datavol
+      persistentVolumeClaim:
+        claimName: general-premier-pvc
+---
+# This sample PersistentVolumeClaim illustrates how to dynamically provision
+# a PersistentVolume for the storage class 'nuvoloso-db-log'
+# which corresponds to the Nuvoloso 'DB Log' service plan.
+# Adjust the name, namespace and capacity to meet your needs and ensure that
+# the secret object named by the 'nuvoloso.com/provisioning-secret' annotation
+# key exists in this namespace.
+# The 'nuvoloso-account' secret referenced in this example is the same as that
+# used to mount pre-provisioned PersistentVolumes.  Some customization of the
+# dynamically provisioned volume is possible by creating a customization secret
+# explicitly and referencing that secret instead.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  namespace: default
+  name: general-premier-pvc
+  annotations:
+    nuvoloso.com/provisioning-secret: nuvoloso-account
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: nuvoloso-general-premier
+

@@ -1,0 +1,61 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.service-plans {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+
+.card-service-plan .card-body {
+    text-align: left;
+    padding: 0;
+}
+
+.card-service-plan .card-label {
+    padding-right: 0;
+    text-align: left;
+}
+
+.card-service-plan .card-value {
+    padding-left: 5px;
+    text-align: left;
+}
+
+.card-service-plan-main {
+    padding: 10px 15px;
+}
+
+.card-service-plan-footer {
+    background-color: rgba(6, 26, 46, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 10px 15px;
+}
+
+.card-service-plan-footer .card-title {
+    color: rgba(245, 166, 35, 0.8);
+}
+
+.spas-monitor-message {
+    margin: 15px auto 0;
+    text-align: center;
+}
+
+.spas-monitor-footer {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.service-plan-compliance-table-column#ioPattern {
+    min-width: 90px;
+}
+
+.service-plan-compliance-table-column#readWriteMix {
+    min-width: 205px;
+}
+
+.service-plan-compliance-table-column#provisioningUnit {
+    min-width: 110px;
+}

@@ -1,0 +1,10 @@
+.DS_Store
+.vscode/launch.json
+certs
+deploy/gui
+services-node/ssl
+services-node/src/logTimestamp.js
+
+# vs code workspace files
+*.code-workspace
+

@@ -1,0 +1,6 @@
+/build/**
+/dist/**
+/src/build/**
+service-worker.js
+logTimestamp.js
+

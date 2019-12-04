@@ -1,0 +1,230 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.modalContent {
+    padding: 20px;
+}
+
+.modalContent hr {
+    margin: 15px auto;
+}
+
+.modalContent .modal-footer {
+    background-color: whitesmoke;
+    margin: 20px -20px -20px;
+    padding: 10px 20px;
+}
+
+.modalHeader {
+    background-color: whitesmoke;
+    padding: 15px 20px;
+}
+
+.modalHeader:hover {
+    cursor: move;
+}
+
+.modalHeader.disable-draggable:hover {
+    cursor: default;
+}
+
+.dark.modal {
+    font-family: 'OpenSans', 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.dark.modal-backdrop {
+    background-color: #01050a;
+    opacity: 0.8;
+}
+
+.dark .modalHeader {
+    background-color: transparent;
+    border: 0;
+    color: rgba(255, 255, 255, 1);
+    padding: 30px 20px 20px;
+}
+
+.dark .modal-title {
+    font-weight: 300;
+}
+
+.dark .modal-info-outer {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 -1px 0 0 #000000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.dark .modal-info-inner {
+    border-left: 3px solid #1298d3;
+}
+
+.dark .modal-info-content {
+    padding: 10px 20px;
+}
+
+.dark .modal-info-values {
+    color: #56c6f2;
+}
+
+.dark .modal-error-box {
+    box-shadow: inset 0 1px 0 0 #d45155;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #d45155;
+    margin: 15px 20px;
+    padding: 5px 10px 10px;
+}
+
+.dark .modal-error-title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.dark .modal-error-content {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.dark .modal-error-values {
+    font-weight: bold;
+}
+
+.dark .modal-content {
+    background-color: rgba(21, 40, 61, 0.95);
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark .modal-content textarea {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0;
+    padding: 10px;
+}
+
+.dark .modal-content textarea:hover,
+.dark .modal-content textarea:focus {
+    color: rgba(255, 255, 255, 0.9);
+    outline: 0;
+}
+
+.dark .modal-content-main {
+    padding: 15px 20px 0;
+}
+
+.dark .modal-footer {
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 20px;
+    padding: 0;
+}
+
+.dark .modal-footer-center {
+    display: flex;
+    justify-content: center;
+    margin: 15px 20px;
+}
+
+.dark .btn {
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 #000000;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.dark .btn-copy {
+    min-width: 165px;
+}
+
+.dark .btn-default {
+    background-image: linear-gradient(to bottom, #cfcfcf, #909090);
+}
+
+.dark .btn-default:hover,
+.dark .btn-default:focus,
+.dark a.btn-default:hover,
+.dark a.btn-default:focus {
+    background-image: linear-gradient(to bottom, #cfcfcf, #909090);
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+}
+
+.dark .btn-default:active,
+.dark a.btn-default:active {
+    background-color: #aeaeae;
+    background-image: none;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+}
+
+.dark .btn-success {
+    background-image: linear-gradient(to bottom, #8bb884, #3a6732);
+}
+
+.dark .btn-success:hover,
+.dark .btn-success:focus,
+.dark a.btn-success:hover,
+.dark a.btn-success:focus {
+    background-image: linear-gradient(to bottom, #8bb884, #3a6732);
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+}
+
+.dark .btn-success:active,
+.dark a.btn-success:active {
+    background-color: #699362;
+    background-image: none;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+}
+
+/* copied from wizard.css, consolidate the two later */
+.dark .btn-primary {
+    background-image: linear-gradient(to bottom, #1a9dd5, #2a81ba);
+}
+
+.dark .btn-primary:hover,
+.dark .btn-primary:focus,
+.dark a.btn-primary:hover,
+.dark a.btn-primary:focus {
+    background-image: linear-gradient(to bottom, #1a9dd5, #2a81ba);
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+}
+
+.dark .btn-primary:active,
+.dark a.btn-primary:active {
+    background-color: #1298d3;
+    background-image: none;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+}
+
+/* consolidate with .wizard-menu-divider */
+.dark .modal-divider {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 767px) {
+    .modal-content .field-group {
+        display: block;
+    }
+
+    .modal-content .wizard-form-label {
+        margin-bottom: 5px;
+    }
+
+    .modal-content .wizard-form-input-container {
+        margin-bottom: 5px;
+    }
+}

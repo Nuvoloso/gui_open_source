@@ -1,0 +1,39 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.pools-table-column-filter {
+    align-items: center;
+    display: flex;
+}
+
+.pools-table-column-filter-label {
+    margin-right: 10px;
+}
+
+#pools-table-column-filter-options {
+    min-width: 200px;
+}
+
+.pools-table-column-filter-append {
+    margin-left: 10px;
+}
+
+.column-filter-percent {
+    align-items: center;
+    display: flex;
+}
+
+.column-filter-percent-field .wizard-form-group {
+    margin-left: 10px;
+    width: fit-content;
+}
+
+.column-filter-percent-field .wizard-form-label,
+.column-filter-percent-field .wizard-form-append-label {
+    min-width: fit-content;
+}
+
+.column-filter-percent-dash {
+    border-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid;
+    width: 10px;
+}

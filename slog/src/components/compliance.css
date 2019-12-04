@@ -1,0 +1,332 @@
+@import '~highcharts/css/highcharts.css';
+
+/* for desktop */
+@media screen and (min-width: 767px) {
+    .compliance-page {
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+    }
+
+    .compliance-chart-and-filter {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .compliance-chart-and-volumes {
+        display: flex;
+        flex-direction: column;
+        flex: 1.1;
+    }
+
+    .compliance-cards {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+    }
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+    .compliance-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .compliance-chart-and-volumes {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .compliance-chart-and-filter {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .compliance-cards {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        height: 100%;
+    }
+}
+
+.compliance-page .compliance-chart div#appGroupCompliancePage {
+    height: 100%;
+}
+
+.compliance-page .compliance-chart div#compliancePageDrilldownChart {
+    height: 100%;
+}
+
+.compliance-page button {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.compliance-page .compliance-filter-name-group input {
+    background-color: rgba(6, 27, 47, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'OpenSans-Light', 'Open Sans Light', 'Open Sans';
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* Top of page components */
+.compliance-chart {
+    display: flex;
+    flex: 1;
+}
+
+.compliance-filter card {
+    display: flex;
+    flex: 1;
+    margin-left: 5px;
+    flex-direction: column;
+}
+
+.compliance-filter-options {
+    display: flex;
+    flex: 1;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.compliance-ok {
+    fill: rgba(105, 147, 98, 1);
+}
+
+.compliance-l1 {
+    fill: #c3b749;
+}
+
+.compliance-l2 {
+    fill: rgba(245, 166, 35, 1);
+}
+
+.compliance-l3 {
+    fill: rgba(212, 81, 85, 1);
+}
+
+/* these are marked !important to override default color on select */
+.compliance-cell-ok {
+    fill: rgba(105, 147, 98, 1) !important;
+}
+
+.compliance-cell-l1 {
+    fill: #c3b749 !important;
+}
+
+.compliance-cell-l2 {
+    fill: rgba(245, 166, 35, 1) !important;
+}
+
+div#compliancePageDrilldownChart .highcharts-point-select {
+    stroke-width: 4px;
+    stroke: rgba(95, 206, 255, 0.8);
+}
+
+.compliance-cell-l3 {
+    fill: rgba(212, 81, 85, 1) !important;
+}
+
+.highcharts-heatmap-series .highcharts-point,
+.highcharts-pie-series .highcharts-point {
+    stroke-width: 1;
+    stroke: rgba(6, 26, 46, 0.3);
+}
+
+.highcharts-drilldown-data-label text {
+    text-decoration: none;
+}
+
+.compliance-cell- tspan {
+    font-size: 14px;
+}
+
+.compliance-cell- {
+    font-size: 14px;
+}
+
+.compliance-nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.compliance-nav-button {
+    font-size: 14px;
+    padding: 2px;
+}
+
+.compliance-nav-group {
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    margin: 0 10px;
+}
+
+.compliance-nav-label {
+    align-content: center;
+    background-color: rgba(6, 26, 46, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    flex: 1;
+}
+.compliance-nav-item {
+    color: rgba(95, 206, 255, 0.8);
+    flex: 1;
+    font-weight: 600;
+}
+
+.compliance-nav-label .compliance-nav-ag {
+    padding-left: 10px;
+}
+
+.compliance-page .highcharts-drillup-button {
+    display: none;
+}
+
+.compliance-nav-selected {
+    border: 1px solid rgba(95, 206, 255, 0.8);
+    font-weight: bold;
+}
+
+.volumeDetailsMetrics {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+}
+
+.volumeDetailsMetrics div#complianceVolumeDetailsLatency .highcharts-title tspan,
+.volumeDetailsMetrics div#complianceVolumeDetailsCapacity .highcharts-title tspan,
+.volumeDetailsMetrics div#complianceVolumeDetailsIO .highcharts-title tspan,
+.volumeDetailsMetrics div#complianceVolumeDetailsBlocksize .highcharts-title tspan,
+.volumeDetailsMetrics div[id^='complianceVolumeDetailsLatencyStorage'] .highcharts-title tspan {
+    font-size: 14px;
+}
+
+.volumeDetailsMetricsChart div#complianceVolumeDetailsLatency,
+.volumeDetailsMetricsChart div#complianceVolumeDetailsCapacity,
+.volumeDetailsMetrics div#complianceVolumeDetailsIO,
+.volumeDetailsMetrics div#complianceVolumeDetailsBlocksize,
+.volumeDetailsMetricsChart div[id^='complianceVolumeDetailsLatencyStorage'] {
+    flex: 1;
+}
+
+.volumeDetailsMetricsChart {
+    display: flex;
+    flex: 1;
+}
+
+.volumeDetailsDivider {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.compliance-filter-label {
+    font-weight: 600;
+    padding-right: 3px;
+}
+
+.compliance-filter-period {
+    align-content: left;
+}
+
+.compliance-nav-hidden {
+    display: none;
+}
+
+.compliance-filter-options-overall {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: left;
+}
+
+.compliance-filter-options-modes {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: left;
+}
+
+.compliance-filter-options-filter {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+
+.compliance-filter-options-filter > div {
+    margin: 0 5px;
+}
+
+/* for desktop */
+@media screen and (min-width: 767px) {
+    .compliance-filter-options {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: left;
+    }
+}
+/* for mobile */
+@media screen and (max-width: 1365px) {
+    .compliance-filter-options {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: left;
+    }
+}
+
+.compliance-filter-options-group {
+    align-items: left;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.compliance-filter-period-group {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+
+.compliance-filter-period-group-range {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.compliance-filter-period-group-range-label {
+    padding-right: 3px;
+    font-weight: bold;
+}
+
+.compliance-filter-disabled {
+    background-color: #f2f2f2;
+}
+
+.compliance-filter-name-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.compliance-filter-name-group > i.card-info-icon {
+    margin-left: 10px;
+}

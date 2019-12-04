@@ -1,0 +1,113 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.alert-messages-container {
+    left: 0;
+    margin: 0 auto;
+    max-height: calc(100vh - 50px);
+    max-width: calc(100vw - 30px);
+    min-width: 340px;
+    overflow: auto;
+    padding: 5px 0;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: fit-content;
+    z-index: 1025;
+}
+
+.alert-message {
+    box-shadow: 3px 3px 0.8em gray;
+    margin: 20px auto 0;
+    max-width: 800px;
+}
+
+.alert-messages-enter {
+    opacity: 0.01;
+}
+
+.alert-messages-enter.alert-messages-enter-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+}
+
+.alert-messages-leave {
+    opacity: 1;
+}
+
+.alert-messages-leave.alert-messages-leave-active {
+    opacity: 0.01;
+    transition: opacity 100ms ease-in;
+}
+
+.alert-messages-container .close {
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+    outline: none;
+    top: -1px;
+}
+
+.alert-messages-container .close:hover {
+    opacity: 0.9;
+}
+
+.alert-messages-container .close:active {
+    opacity: 1;
+}
+
+.alert-message-layout {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-message-main {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    margin-right: 30px;
+}
+
+.alert-messages-container .alert {
+    background-color: rgba(21, 40, 61, 0.95);
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.alert-messages-container .alert-danger .alert-message-icon,
+.alert-messages-container .alert-danger .alert-message-duplicates {
+    color: var(--critical-red);
+}
+
+.alert-messages-container .alert-success .alert-message-icon {
+    color: var(--nuvo-blue);
+}
+
+.alert-messages-container .alert-success .alert-message-duplicates {
+    color: var(--nuvo-history);
+}
+
+.alert-message-icon {
+    align-items: center;
+    display: flex;
+    width: 20px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.alert-message-text {
+    color: rgba(179, 179, 179, 0.7);
+    font-size: 14px;
+    text-align: left;
+}
+
+.alert-message-duplicates {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 11px;
+    height: 16px;
+    min-width: 30px;
+    text-align: center;
+}

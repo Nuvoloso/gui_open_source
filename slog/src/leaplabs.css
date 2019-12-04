@@ -1,0 +1,860 @@
+@font-face {
+    font-family: 'LeapLabs-iconFont-v01';
+    src: url('fonts/LeapLabs-iconFont-v01.eot?7l6oyw');
+    src: url('fonts/LeapLabs-iconFont-v01.eot?7l6oyw#iefix') format('embedded-opentype'),
+        url('fonts/LeapLabs-iconFont-v01.ttf?7l6oyw') format('truetype'),
+        url('fonts/LeapLabs-iconFont-v01.woff?7l6oyw') format('woff'),
+        url('fonts/LeapLabs-iconFont-v01.svg?7l6oyw#LeapLabs-iconFont-v01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'LeapLabs-iconFont-v01' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-users:before {
+    content: '\e900';
+}
+.icon-save-check:before {
+    content: '\e901';
+}
+.icon-organization:before {
+    content: '\e902';
+}
+.icon-users-rounded-outline:before {
+    content: '\e903';
+}
+.icon-user-rounded-outline:before {
+    content: '\e904';
+}
+.icon-trash-outline-bold:before {
+    content: '\e905';
+}
+.icon-advanced-settings:before {
+    content: '\e906';
+}
+.icon-advanced-settings-outline:before {
+    content: '\e907';
+}
+.icon-settings-outline:before {
+    content: '\e908';
+}
+.icon-warning-rounded-outline:before {
+    content: '\e909';
+}
+.icon-warning-rounded:before {
+    content: '\e90a';
+}
+.icon-hide-left:before {
+    content: '\e90b';
+}
+.icon-hide-right:before {
+    content: '\e90c';
+}
+.icon-show:before {
+    content: '\e90d';
+}
+.icon-trash-outline:before {
+    content: '\e90e';
+}
+.icon-trash:before {
+    content: '\e90f';
+}
+.icon-devOps:before {
+    content: '\e910';
+}
+.icon-search-rounded-advanced:before {
+    content: '\e911';
+}
+.icon-search-rounded:before {
+    content: '\e912';
+}
+.icon-settings-3gears:before {
+    content: '\e913';
+}
+.icon-user-group:before {
+    content: '\e914';
+}
+.icon-pinned:before {
+    content: '\e915';
+}
+.icon-unpinned:before {
+    content: '\e916';
+}
+.icon-home-outline:before {
+    content: '\e917';
+}
+.icon-home:before {
+    content: '\e918';
+}
+.icon-collapse-sm:before {
+    content: '\e919';
+}
+.icon-expand-sm:before {
+    content: '\e91a';
+}
+.icon-show-dropdown:before {
+    content: '\e91b';
+}
+.icon-hide-dropdown:before {
+    content: '\e91c';
+}
+.icon-collapse:before {
+    content: '\e91d';
+}
+.icon-extend:before {
+    content: '\e91e';
+}
+.icon-expand-menu:before {
+    content: '\e91f';
+}
+.icon-collapse-menu:before {
+    content: '\e920';
+}
+.icon-dashboard-new-outline:before {
+    content: '\e921';
+}
+.icon-dashboard-new:before {
+    content: '\e922';
+}
+.icon-dashboard-half-circle:before {
+    content: '\e923';
+}
+.icon-add-dashboard:before {
+    content: '\e924';
+}
+.icon-dashboard:before {
+    content: '\e925';
+}
+.icon-config-alert-outline:before {
+    content: '\e926';
+}
+.icon-megaphone:before {
+    content: '\e927';
+}
+.icon-megaphone-outline:before {
+    content: '\e928';
+}
+.icon-bell-snooze-right:before {
+    content: '\e929';
+}
+.icon-bell-snooze-left:before {
+    content: '\e92a';
+}
+.icon-bell:before {
+    content: '\e92b';
+}
+.icon-loggedin:before {
+    content: '\e92c';
+}
+.icon-lock-open:before {
+    content: '\e92d';
+}
+.icon-lock:before {
+    content: '\e92e';
+}
+.icon-ico-lock-open:before {
+    content: '\e92f';
+}
+.icon-ico-lock:before {
+    content: '\e930';
+}
+.icon-info-rounded-copy:before {
+    content: '\e931';
+}
+.icon-info-rounded:before {
+    content: '\e932';
+}
+.icon-history-advanced:before {
+    content: '\e933';
+}
+.icon-history:before {
+    content: '\e934';
+}
+.icon-help-rounded-outline:before {
+    content: '\e935';
+}
+.icon-help-rounded:before {
+    content: '\e936';
+}
+.icon-calendar-rounded-clock:before {
+    content: '\e937';
+}
+.icon-calendar-rounded:before {
+    content: '\e938';
+}
+.icon-calendar-rounded-date:before {
+    content: '\e939';
+}
+.icon-event-rounded-blank:before {
+    content: '\e93a';
+}
+.icon-column:before {
+    content: '\e93b';
+}
+.icon-ico-filter-outline .path1:before {
+    content: '\e93c';
+    color: rgb(255, 255, 255);
+    opacity: 0.01;
+}
+.icon-ico-filter-outline .path2:before {
+    content: '\e93d';
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.icon-ico-filter .path1:before {
+    content: '\e93e';
+    color: rgb(255, 255, 255);
+    opacity: 0.01;
+}
+.icon-ico-filter .path2:before {
+    content: '\e93f';
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+}
+.icon-delete-all:before {
+    content: '\e940';
+}
+.icon-duplicate-rounded:before {
+    content: '\e941';
+}
+.icon-download-rounded:before {
+    content: '\e942';
+}
+.icon-upload-rounded:before {
+    content: '\e943';
+}
+.icon-import-box:before {
+    content: '\e944';
+}
+.icon-export-box:before {
+    content: '\e945';
+}
+.icon-edit-outline:before {
+    content: '\e946';
+}
+.icon-edit:before {
+    content: '\e947';
+}
+.icon-edit-circle-line:before {
+    content: '\e948';
+}
+.icon-edit-circle:before {
+    content: '\e949';
+}
+.icon-account-outline-rectangle:before {
+    content: '\e94a';
+}
+.icon-account-outline-circle:before {
+    content: '\e94b';
+}
+.icon-arrow-rounded-circle-down:before {
+    content: '\e94c';
+}
+.icon-arrow-rounded-circle-up:before {
+    content: '\e94d';
+}
+.icon-arrow-rounded-circle-left:before {
+    content: '\e94e';
+}
+.icon-arrow-rounded-circle-right:before {
+    content: '\e94f';
+}
+.icon-arrow-big-rounded-left:before {
+    content: '\e950';
+}
+.icon-arrow-big-rounded-right:before {
+    content: '\e951';
+}
+.icon-arrow-big-rounded-down:before {
+    content: '\e952';
+}
+.icon-arrow-big-rounded-up:before {
+    content: '\e953';
+}
+.icon-arrow-small-rounded-left:before {
+    content: '\e954';
+}
+.icon-arrow-small-rounded-right:before {
+    content: '\e955';
+}
+.icon-arrow-small-rounded-down:before {
+    content: '\e956';
+}
+.icon-arrow-small-rounded-up:before {
+    content: '\e957';
+}
+.icon-add-rounded:before {
+    content: '\e958';
+}
+.icon-remove-rounded:before {
+    content: '\e959';
+}
+.icon-close-rounded:before {
+    content: '\e95a';
+}
+.icon-check-rounded:before {
+    content: '\e95b';
+}
+.icon-check-circle-rounded-outline:before {
+    content: '\e95c';
+}
+.icon-remove-circle-rounded-outline:before {
+    content: '\e95d';
+}
+.icon-delete-circle-rounded-outline:before {
+    content: '\e95e';
+}
+.icon-add-circle-rounded-outline:before {
+    content: '\e95f';
+}
+.icon-remove-rounded-square:before {
+    content: '\e960';
+}
+.icon-remove-rounded-circle:before {
+    content: '\e961';
+}
+.icon-add-rounded-square:before {
+    content: '\e962';
+}
+.icon-add-rounded-circle:before {
+    content: '\e963';
+}
+.icon-close-rounded-square:before {
+    content: '\e964';
+}
+.icon-close-rounded-circle:before {
+    content: '\e965';
+}
+.icon-check-rounded-square:before {
+    content: '\e966';
+}
+.icon-check-rounded-circle:before {
+    content: '\e967';
+}
+.icon-add-new:before {
+    content: '\e968';
+}
+.icon-sandbox:before {
+    content: '\e969';
+}
+.icon-audit-trail-outline:before {
+    content: '\e96a';
+}
+.icon-snapshot-schedule:before {
+    content: '\e96b';
+}
+.icon-snapshot-policy-ribbon:before {
+    content: '\e96c';
+}
+.icon-snapshot-policy-detach:before {
+    content: '\e96d';
+}
+.icon-snapshot-policy-attach:before {
+    content: '\e96e';
+}
+.icon-snapshot-inprogress:before {
+    content: '\e96f';
+}
+.icon-snapshot-complete:before {
+    content: '\e970';
+}
+.icon-snapshot-failed:before {
+    content: '\e971';
+}
+.icon-snapshot-policy:before {
+    content: '\e972';
+}
+.icon-snapshot:before {
+    content: '\e973';
+}
+.icon-compute:before {
+    content: '\e974';
+}
+.icon-module:before {
+    content: '\e975';
+}
+.icon-internet:before {
+    content: '\e976';
+}
+.icon-federation:before {
+    content: '\e977';
+}
+.icon-developer-api:before {
+    content: '\e978';
+}
+.icon-developer-tools:before {
+    content: '\e979';
+}
+.icon-developer-download_tools:before {
+    content: '\e97a';
+}
+.icon-analytics-outline:before {
+    content: '\e97b';
+}
+.icon-analytics:before {
+    content: '\e97c';
+}
+.icon-stats:before {
+    content: '\e97d';
+}
+.icon-stats-square:before {
+    content: '\e97e';
+}
+.icon-persistent-access:before {
+    content: '\e97f';
+}
+.icon-heavy-access:before {
+    content: '\e980';
+}
+.icon-light-access:before {
+    content: '\e981';
+}
+.icon-no-access:before {
+    content: '\e982';
+}
+.icon-unencryption:before {
+    content: '\e983';
+}
+.icon-encryption:before {
+    content: '\e984';
+}
+.icon-access-control:before {
+    content: '\e985';
+}
+.icon-authentication:before {
+    content: '\e986';
+}
+.icon-certificate:before {
+    content: '\e987';
+}
+.icon-roles:before {
+    content: '\e988';
+}
+.icon-role-bindings:before {
+    content: '\e989';
+}
+.icon-authorizations:before {
+    content: '\e98a';
+}
+.icon-cloud-refresh:before {
+    content: '\e98b';
+}
+.icon-cloud:before {
+    content: '\e98c';
+}
+.icon-cloud-publish:before {
+    content: '\e98d';
+}
+.icon-colud-external-data-sources:before {
+    content: '\e98e';
+}
+.icon-memory:before {
+    content: '\e98f';
+}
+.icon-service-hexagon-microservice-instance:before {
+    content: '\e990';
+}
+.icon-diagnostics-rectangle-outline:before {
+    content: '\e991';
+}
+.icon-diagnostics-rectangle:before {
+    content: '\e992';
+}
+.icon-diagnostics-circle-outline:before {
+    content: '\e993';
+}
+.icon-diagnostics-circle:before {
+    content: '\e994';
+}
+.icon-troubleshooting-tool:before {
+    content: '\e995';
+}
+.icon-troubleshooting-tool-outline:before {
+    content: '\e996';
+}
+.icon-diagnostic-bundle:before {
+    content: '\e997';
+}
+.icon-service-hexagon-cluster:before {
+    content: '\e998';
+}
+.icon-service-hexagon:before {
+    content: '\e999';
+}
+.icon-service-hexagon-microservice-cluster:before {
+    content: '\e99a';
+}
+.icon-service-hexagon-microservice:before {
+    content: '\e99b';
+}
+.icon-troubleshooting:before {
+    content: '\e99c';
+}
+.icon-monitoring:before {
+    content: '\e99d';
+}
+.icon-namespace:before {
+    content: '\e99e';
+}
+.icon-rate-limiter:before {
+    content: '\e99f';
+}
+.icon-service:before {
+    content: '\e9a0';
+}
+.icon-performance-tier-solid:before {
+    content: '\e9a1';
+}
+.icon-performance-tier:before {
+    content: '\e9a2';
+}
+.icon-workloads-unprotected:before {
+    content: '\e9a3';
+}
+.icon-workloads-new:before {
+    content: '\e9a4';
+}
+.icon-workloads-total:before {
+    content: '\e9a5';
+}
+.icon-workloads:before {
+    content: '\e9a6';
+}
+.icon-workload:before {
+    content: '\e9a7';
+}
+.icon-security-immutable:before {
+    content: '\e9a8';
+}
+.icon-security-changed-state-save:before {
+    content: '\e9a9';
+}
+.icon-security-changed-state:before {
+    content: '\e9aa';
+}
+.icon-security-resolved:before {
+    content: '\e9ab';
+}
+.icon-security-vulnerable:before {
+    content: '\e9ac';
+}
+.icon-security-threat:before {
+    content: '\e9ad';
+}
+.icon-security-quarantine:before {
+    content: '\e9ae';
+}
+.icon-security:before {
+    content: '\e9af';
+}
+.icon-vm:before {
+    content: '\e9b0';
+}
+.icon-vcenter:before {
+    content: '\e9b1';
+}
+.icon-security-group:before {
+    content: '\e9b2';
+}
+.icon-nodes-hexagon:before {
+    content: '\e9b3';
+}
+.icon-node-hexagon-outline:before {
+    content: '\e9b4';
+}
+.icon-nodes-recommission:before {
+    content: '\e9b5';
+}
+.icon-nodes-decommission:before {
+    content: '\e9b6';
+}
+.icon-nodes-restart:before {
+    content: '\e9b7';
+}
+.icon-nodes-reset-restart:before {
+    content: '\e9b8';
+}
+.icon-nodes-reset:before {
+    content: '\e9b9';
+}
+.icon-nodes-power:before {
+    content: '\e9ba';
+}
+.icon-nodes_management:before {
+    content: '\e9bb';
+}
+.icon-node:before {
+    content: '\e9bc';
+}
+.icon-servers:before {
+    content: '\e9bd';
+}
+.icon-cluster-setting:before {
+    content: '\e9be';
+}
+.icon-cluster:before {
+    content: '\e9bf';
+}
+.icon-host-ouline:before {
+    content: '\e9c0';
+}
+.icon-container-cube:before {
+    content: '\e9c1';
+}
+.icon-container:before {
+    content: '\e9c2';
+}
+.icon-server-rounded-cluster:before {
+    content: '\e9c3';
+}
+.icon-server-rounded:before {
+    content: '\e9c4';
+}
+.icon-cluster-hexagon:before {
+    content: '\e9c5';
+}
+.icon-host:before {
+    content: '\e9c6';
+}
+.icon-container-1:before {
+    content: '\e9c7';
+}
+.icon-application-metadata:before {
+    content: '\e9c8';
+}
+.icon-cluster-config:before {
+    content: '\e9c9';
+}
+.icon-discdrive-stack:before {
+    content: '\e9ca';
+}
+.icon-discdrive:before {
+    content: '\e9cb';
+}
+.icon-policy-rounded-pencil:before {
+    content: '\e9cc';
+}
+.icon-policy-rounded-p:before {
+    content: '\e9cd';
+}
+.icon-policy-rounded-badge:before {
+    content: '\e9ce';
+}
+.icon-policy-rounded:before {
+    content: '\e9cf';
+}
+.icon-network-rectangle-endpoint:before {
+    content: '\e9d0';
+}
+.icon-network-rectangle:before {
+    content: '\e9d1';
+}
+.icon-disk-outline:before {
+    content: '\e9d2';
+}
+.icon-disk:before {
+    content: '\e9d3';
+}
+.icon-shared-network--outline:before {
+    content: '\e9d4';
+}
+.icon-private-network-ouline:before {
+    content: '\e9d5';
+}
+.icon-network-ouline-subnet:before {
+    content: '\e9d6';
+}
+.icon-network-ouline:before {
+    content: '\e9d7';
+}
+.icon-remove-from-tag-group:before {
+    content: '\e9d8';
+}
+.icon-rename-tag-group:before {
+    content: '\e9d9';
+}
+.icon-add-to-existing-tag-group:before {
+    content: '\e9da';
+}
+.icon-create-new-tag-group:before {
+    content: '\e9db';
+}
+.icon-add_policy-scroll:before {
+    content: '\e9dc';
+}
+.icon-all-policy-scroll:before {
+    content: '\e9dd';
+}
+.icon-policy-scroll-event:before {
+    content: '\e9de';
+}
+.icon-policy-scroll-subject:before {
+    content: '\e9df';
+}
+.icon-policy-scroll-action:before {
+    content: '\e9e0';
+}
+.icon-policy-scroll-object:before {
+    content: '\e9e1';
+}
+.icon-policy-scroll-dependency:before {
+    content: '\e9e2';
+}
+.icon-policy-scroll:before {
+    content: '\e9e3';
+}
+.icon-tag:before {
+    content: '\e9e4';
+}
+.icon-config-control:before {
+    content: '\e9e5';
+}
+.icon-modules-policy:before {
+    content: '\e9e6';
+}
+.icon-export-policy:before {
+    content: '\e9e7';
+}
+.icon-retention-policy:before {
+    content: '\e9e8';
+}
+.icon-collection-policy:before {
+    content: '\e9e9';
+}
+.icon-monitor-policy:before {
+    content: '\e9ea';
+}
+.icon-mirror-policy:before {
+    content: '\e9eb';
+}
+.icon-loadbalance-policy:before {
+    content: '\e9ec';
+}
+.icon-all-policy-1:before {
+    content: '\e9ed';
+}
+.icon-policy-1:before {
+    content: '\e9ee';
+}
+.icon-policy:before {
+    content: '\e9ef';
+}
+.icon-policy-violation:before {
+    content: '\e9f0';
+}
+.icon-ingress-policy:before {
+    content: '\e9f1';
+}
+.icon-egress-policy:before {
+    content: '\e9f2';
+}
+.icon-QoS-policy:before {
+    content: '\e9f3';
+}
+.icon-authentication-policy:before {
+    content: '\e9f4';
+}
+.icon-encryption-policy:before {
+    content: '\e9f5';
+}
+.icon-firewall-policy:before {
+    content: '\e9f6';
+}
+.icon-security-policy:before {
+    content: '\e9f7';
+}
+.icon-disk-stack:before {
+    content: '\e9f8';
+}
+.icon-network:before {
+    content: '\e9f9';
+}
+.icon-volume-ouline:before {
+    content: '\e9fa';
+}
+.icon-volume:before {
+    content: '\e9fb';
+}
+.icon-APP-logical-representation:before {
+    content: '\e9fc';
+}
+.icon-syscall:before {
+    content: '\e9fd';
+}
+.icon-API-post:before {
+    content: '\e9fe';
+}
+.icon-API-get:before {
+    content: '\e9ff';
+}
+.icon-RW-GP:before {
+    content: '\ea00';
+}
+.icon-API:before {
+    content: '\ea01';
+}
+.icon-configuration-file:before {
+    content: '\ea02';
+}
+.icon-log-file:before {
+    content: '\ea03';
+}
+.icon-binary:before {
+    content: '\ea04';
+}
+.icon-code-repository:before {
+    content: '\ea05';
+}
+.icon-app-instance:before {
+    content: '\ea06';
+}
+.icon-application-browser-2:before {
+    content: '\ea07';
+}
+.icon-application-browser:before {
+    content: '\ea08';
+}
+.icon-application-setting:before {
+    content: '\ea09';
+}
+.icon-application:before {
+    content: '\ea0a';
+}
+.icon-appUserGrp:before {
+    content: '\ea0b';
+}
+.icon-appUserID:before {
+    content: '\ea0c';
+}
+.icon-appIDGroup:before {
+    content: '\ea0d';
+}
+.icon-app:before {
+    content: '\ea0e';
+}
+.icon-infrastructure-bold-reverse:before {
+    content: '\ea0f';
+}
+.icon-infrastructure-bold:before {
+    content: '\ea10';
+}
+.icon-infrastructure-reverse:before {
+    content: '\ea11';
+}
+.icon-infrastructure:before {
+    content: '\ea12';
+}

@@ -1,0 +1,27 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.user-create-form-fields {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 230px;
+}
+
+.user-create-form .wizard-form-label {
+    min-width: 120px;
+}
+
+.user-create-form .wizard-form-input-container {
+    width: 700px;
+}
+
+.delete-user-checkbox label {
+    font-weight: 300;
+}
+
+#field-group-role .wizard-form-label-static,
+#field-group-role .wizard-form-input-static,
+#field-group-userName .wizard-form-label-static,
+#field-group-userName .wizard-form-input-static {
+    margin-bottom: 10px;
+    margin-top: 8px;
+}

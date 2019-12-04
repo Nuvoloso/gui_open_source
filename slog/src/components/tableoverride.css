@@ -1,0 +1,12 @@
+/* react-table adds 'hidden' CSS attribute to cells ... disable for that component */
+.rt-td.hidden.rt-expandable.rt-pivot {
+    display: block !important;
+}
+
+.table-arrow-down {
+    vertical-align: middle;
+}
+
+.table-arrow-right {
+    vertical-align: middle;
+}

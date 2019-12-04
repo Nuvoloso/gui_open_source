@@ -1,0 +1,177 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.vs-create-form .form-row {
+    display: flex;
+    text-align: left;
+}
+
+.vs-create-form .wizard-form-label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.vs-create-form .col-1 {
+    margin-right: 100px;
+}
+
+.vs-create-form .col-1 .wizard-form-label {
+    width: 125px;
+}
+
+.vs-create-form .col-1,
+.vs-create-form .col-2 {
+    width: 575px;
+}
+
+.vs-create-form .col-2 .wizard-form-label {
+    width: 100px;
+}
+
+.vs-create-form .wizard-form {
+    display: inline-block;
+    padding: 15px 20px 0;
+}
+
+.size-input {
+    display: flex;
+}
+
+.size-input-field {
+    margin-right: 10px;
+    width: 100%;
+}
+
+.size-input-unit-select {
+    width: 90px;
+}
+
+.service-plan-create-form-help {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-plan-create-form-help-item {
+    border: 1px dotted lightgray;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.vs-delete-form .select-options__single-value {
+    text-align: center;
+    width: 100%;
+}
+
+.vs-delete-form .glyphicon {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.vs-yaml-textarea-container {
+    margin: 15px 20px;
+}
+
+.vs-yaml-textarea {
+    height: 300px;
+    resize: vertical;
+    width: 100%;
+}
+
+.vs-yaml-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 20px;
+}
+
+.service-plan-compliance-title {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.service-plan-compliance-tables {
+    column-gap: 3px;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    margin-bottom: 20px;
+}
+
+.service-plan-compliance-table {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: normal;
+    height: 150px;
+}
+
+.service-plan-compliance-table-title {
+    background-color: rgba(6, 27, 47, 0.2);
+    font-size: 14px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.service-plan-compliance-table-block {
+    background-color: rgba(6, 27, 47, 0.1);
+    display: flex;
+    width: 100%;
+}
+
+.service-plan-compliance-table-column {
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.25);
+    flex-grow: 1;
+}
+
+.service-plan-compliance-table-column-selected {
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.25), inset -1px 0 0 0 rgba(255, 255, 255, 0.25),
+        inset 0 -1px 0 0 rgba(255, 255, 255, 0.25);
+}
+
+.service-plan-compliance-table-column-border {
+    margin-left: 1px;
+}
+
+.service-plan-compliance-table-column:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.service-plan-compliance-table-header {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 -1px 0 0 #06172b, 0 1px 0 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 0 #06172b,
+        inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+    height: 45px;
+    overflow: auto;
+    padding: 5px 10px;
+}
+
+.service-plan-compliance-table-cell {
+    height: 75px;
+    overflow: auto;
+    padding: 5px 10px;
+}
+
+.service-plan-compliance-chart {
+    margin-left: 5px;
+}
+
+.group-create-form .wizard-form-label {
+    width: 80px;
+}
+
+.cg-create-form .wizard-form-label {
+    width: 120px;
+}
+
+.service-plan-compliance .resource-settings-header,
+.volume-service-history .resource-settings-header {
+    border-color: transparent;
+    margin-left: 0;
+}
+
+.volume-details-ag-count {
+    width: fit-content;
+}
+
+.volume-details-chart-xaxis-hide-line .highcharts-axis-line {
+    stroke-width: 0;
+}

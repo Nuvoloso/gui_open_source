@@ -1,0 +1,36 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.cluster-table-state-cell {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 120px;
+}
+
+.cluster-table-state-cell .cluster-table-state-text {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cluster-table-status-icon {
+    cursor: help;
+    display: flex;
+}
+
+#cluster-table-state-cell-tooltip .tooltip-inner {
+    max-width: 500px;
+}
+
+.cluster-table-icon-rotate {
+    animation: rotation 2s infinite linear;
+}
+
+.cluster-details-modal-required-item {
+    text-align: center;
+}
+
+.cluster-details-required-action-btn.btn {
+    margin-left: 0;
+    margin-top: 20px;
+}

@@ -1,0 +1,278 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.ReactTable .rt-thead [role='columnheader'] {
+    align-items: center;
+    display: flex;
+    outline: 0;
+}
+
+.rt-td .btn-group {
+    vertical-align: top;
+}
+
+.table-empty-placeholder {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 60px 0 50px;
+    text-align: center;
+}
+
+.table-empty-placeholder-icon {
+    height: 120px;
+    opacity: 0.1;
+    width: 120px;
+}
+
+.table-empty-placeholder-icon.icon-node {
+    font-size: 110px;
+}
+
+.table-empty-placeholder-text {
+    margin-top: 35px;
+    opacity: 0.2;
+}
+
+.table-container {
+    color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.table-container button,
+.table-container div.-pagination button.-btn,
+.table-container .input-group-addon {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.table-container .filtered-input,
+.table-container div.-pagination input,
+.table-container div.-pagination select {
+    font-family: 'OpenSans-Light', 'Open Sans Light', 'Open Sans';
+    font-weight: 200;
+    font-style: normal;
+    background-color: rgba(6, 27, 47, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.table-container div.-pagination {
+    background-color: rgba(6, 27, 47, 0.4);
+    border-top: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+.table-container div.-pagination .-btn:not([disabled]):hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.table-container [id^='field-group-'] {
+    margin-bottom: 0;
+}
+
+.table-header {
+    align-items: center;
+    display: flex;
+    margin: 15px;
+}
+
+.table-header-actions {
+    display: flex;
+}
+
+.table-header-actions img {
+    margin-left: 10px;
+}
+
+.table-wrapper {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.table-wrapper .ReactTable .rt-table,
+.table-wrapper .ReactTable .rt-table .rt-tbody {
+    overflow: visible;
+}
+
+.table-button-dropdown {
+    top: 0px;
+}
+
+.table-select-header {
+    cursor: pointer;
+    height: 21px;
+    width: 58px;
+}
+
+.table-select-cell {
+    cursor: pointer;
+    margin: 0px;
+    width: 100%;
+}
+
+.table-select-cell input {
+    cursor: pointer;
+}
+
+.table-actions-cell {
+    display: flex;
+}
+
+.table-actions-cell .glyphicon,
+.table-actions-cell img,
+.table-actions-cell svg {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: normal;
+    height: 18px;
+    opacity: 0.7;
+    padding-right: 10px;
+    text-align: center;
+    width: 28px;
+}
+
+.table-actions-cell .glyphicon:not(.disabled):hover,
+.table-actions-cell img:hover,
+.table-actions-cell svg:not(.disabled):hover {
+    color: var(--mystrious-honeydew);
+}
+
+.table-actions-cell .glyphicon.disabled,
+.table-actions-cell svg.disabled {
+    cursor: not-allowed;
+    opacity: 0.1;
+}
+
+.table-actions-cell .glyphicon-save-file {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.table-title {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    margin-right: 40px;
+    min-width: fit-content;
+}
+
+a.table-name-link {
+    color: var(--nuvo-blue-light);
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a.table-name-link:hover {
+    opacity: 1;
+}
+
+.subrow-label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-control[readonly].subrow-messages {
+    background-color: rgba(21, 40, 61, 0.95);
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.7);
+    height: 120px;
+    resize: vertical;
+    width: 100%;
+}
+
+.form-control[readonly].subrow-messages:focus,
+.form-control[readonly].subrow-messages:hover {
+    color: rgba(255, 255, 255, 0.9);
+    outline: 0;
+}
+
+.toolbar-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    min-width: fit-content;
+    width: 100%;
+}
+
+.toolbar-button-group {
+    align-items: center;
+    display: flex;
+}
+
+.table-settings-column-checkbox {
+    padding: 5px 15px;
+}
+
+.table-settings-actions {
+    padding: 10px 15px 10px 10px;
+    text-align: right;
+}
+
+.table-settings-actions .table-settings-action.btn {
+    margin-left: 5px;
+    width: calc(50% - 5px);
+}
+
+.table-filter {
+    max-width: 210px;
+}
+
+.table-filter .filtered-input,
+.table-filter .input-group-addon {
+    border-radius: 0;
+}
+
+.table-toggle-mode-button {
+    display: flex;
+    padding-left: 1px;
+}
+
+.table-toggle-mode-button:first-child {
+    padding-left: 0;
+}
+
+.table-toggle-mode-button svg {
+    cursor: pointer;
+}
+
+.table-toggle-mode-button svg:hover path {
+    opacity: 0.6;
+}
+
+.table-toggle-mode-button svg.active path {
+    fill: var(--mystrious-honeydew);
+    opacity: 1;
+}
+
+.sloEmbeddedRow {
+    padding: 2px;
+    text-align: left;
+}
+.sloEmbeddedRowKey {
+    padding: 2px;
+    text-align: right;
+    width: 150px;
+}
+.sloEmbeddedRowValue {
+    padding: 2px;
+    text-align: left;
+}
+.usageBar {
+    margin: auto;
+}
+
+.rt-td.rt-expandable div > span:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(18, 152, 211);
+}
+
+.table-check > svg {
+    color: var(--nuvo-blue-light);
+}

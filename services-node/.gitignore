@@ -1,0 +1,6 @@
+dist
+node_modules
+config/db.js
+.DS_Store
+nuvodb.db
+metricsdb

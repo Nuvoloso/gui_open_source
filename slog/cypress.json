@@ -1,0 +1,19 @@
+{
+    "baseUrl": "http://localhost:3000",
+    "testFiles": "./nuvoloso/cluster_and_app/[0-9]*",
+    "viewportWidth": 1368,
+    "viewportHeight": 1200,
+    "numTestsKeptInMemory": 3,
+    "env": {
+        "AWS_ACCESS_KEY_ID": "XXXX",
+        "AWS_SECRET_ACCESS_KEY": "XXXX",
+        "KOPS_STATE_STORE": "s3://kops-nuvoloso",
+        "NUVO_CY_CLUSTER_APP": "dev18app.k8s.local",
+        "NUVO_CY_CLUSTER_MGMT": "dev18mgmt.k8s.local",
+        "NUVO_CY_SCP_REMOTE": "ubuntu@dev18",
+        "NUVO_CY_SCP": "scp -i ~/aws/razoregon.pem",
+        "NUVO_CY_SSH": "ssh -i ~/aws/razoregon.pem ubuntu@dev18",
+        "test_scale_volumes": false,
+        "test_standalone": false
+    }
+}

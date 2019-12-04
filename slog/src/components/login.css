@@ -1,0 +1,71 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.loginHeader {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLogo {
+    width: 150px;
+}
+
+.loginCompanyName {
+    margin-top: 22px;
+    width: 230px;
+}
+
+@media (min-width: 768px) {
+    .login .modal-dialog {
+        width: 400px;
+    }
+}
+
+.login.modal-backdrop {
+    background-color: transparent;
+}
+
+.login .modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.login .modalHeader {
+    padding-bottom: 50px;
+}
+
+.login .modal-content-main-box {
+    background-color: rgba(21, 40, 61, 0.95);
+    box-shadow: 0 2px 6px 0 rgba(6, 26, 48, 0.8), inset 1px 1px 0 0 rgba(255, 255, 255, 0.15);
+}
+
+.login-title {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+.login-fields {
+    margin: 25px 20px 35px;
+}
+
+.login-fields .wizard-form-input div#placeholder {
+    text-transform: uppercase;
+}
+
+.login-field-label {
+    color: var(--nuvo-blue-light);
+    font-size: 11px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.login-field-error {
+    color: var(--critical-red);
+    font-size: 11px;
+}
+
+#loginSubmit {
+    margin: 0 20px 40px;
+    width: 100%;
+}

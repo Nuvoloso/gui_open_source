@@ -1,0 +1,15 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.csp-credential-select {
+    align-items: center;
+    display: flex;
+    height: 38px;
+    justify-content: left;
+    margin-bottom: 10px;
+    width: 440px;
+}
+
+.csp-credential-select .dialog-radio {
+    padding: 0;
+    margin-right: 10px;
+}

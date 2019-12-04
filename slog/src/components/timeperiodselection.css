@@ -1,0 +1,16 @@
+.timeperiodbuttons {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.header-filter-dropdown {
+    display: 1;
+    flex: column;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.header-filter-dropdown-period-label {
+    font-size: 12px;
+    font-weight: bold;
+}

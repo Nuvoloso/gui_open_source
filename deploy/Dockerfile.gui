@@ -1,0 +1,7 @@
+FROM node:10.16.0
+WORKDIR /root
+ADD deploy/gui/archive.tgz gui/
+EXPOSE 8000
+WORKDIR /root/gui/services-node
+ENV NODE_ENV production
+CMD ["node", "dist/server.js"]

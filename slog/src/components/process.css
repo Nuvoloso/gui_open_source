@@ -1,0 +1,318 @@
+/* Copyright Nuvoloso.com, 2018 */
+
+.content-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-flex-row-centered {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.process-select-cg {
+    display: flex;
+    flex-direction: row;
+}
+
+.process-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.process-content-index-column {
+    min-width: 50px;
+    background-color: rgba(6, 27, 47, 0.3);
+}
+
+.process-content-panel {
+    width: 100%;
+}
+
+.process-index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+    background-color: rgba(6, 27, 47, 0.6);
+    opacity: 0.8;
+    font-family: 'OpenSans', 'Open Sans';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.process-title {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
+
+    background-color: rgba(6, 27, 47, 0.3);
+    opacity: 0.8;
+    font-family: 'OpenSans', 'Open Sans';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.process-select-button {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    font-family: 'OpenSans', 'Open Sans';
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.process-select-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.step-button {
+    height: 45px;
+    border: 0px;
+}
+
+.snapshot-select {
+    width: 100%;
+    color: white;
+}
+
+.history {
+    width: 100%;
+    color: white;
+}
+
+.date-selected {
+    flex: 1;
+    height: 30px;
+
+    border: 1px solid rgba(21, 110, 168, 1);
+    background-color: rgba(13, 42, 66, 1);
+}
+
+.date-not-selected {
+    flex: 1;
+    height: 30px;
+
+    background-color: rgba(3, 23, 47, 1);
+    box-shadow: inset -1px 0 0 0 rgba(255, 255, 255, 0.4);
+}
+
+.content-flex-row .max-width {
+    width: 100%;
+}
+
+.content-flex-column .max-width {
+    width: 100%;
+}
+
+.date-label-selected {
+    flex: 1;
+    font-family: OpenSans, 'Open Sans';
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(95, 206, 255);
+}
+
+.date-label-not-selected {
+    flex: 1;
+
+    font-family: OpenSans, 'Open Sans';
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.date-value {
+    font-family: OpenSans, 'Open Sans';
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(95, 206, 255);
+}
+
+.recover-snapshot-background {
+    flex: 1;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.recover-snapshot {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+
+    min-height: 120px;
+}
+
+.nested-content-2 {
+    background-color: rgba(22, 40, 61, 1);
+}
+
+.center-content {
+    align-items: center;
+    text-align: center;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.flex-content-end {
+    display: flex;
+    align-self: flex-end;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h30 {
+    height: 30px;
+}
+
+.blue-border {
+    border: 1px solid rgb(19, 58, 89, 1);
+}
+
+.active-step {
+    color: #c3b749;
+}
+
+.inactive-step {
+    height: 24px;
+}
+
+.large-red-warning-triangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 36px;
+
+    color: #af4b52;
+}
+
+.large-empty-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    font-size: 24px;
+
+    color: #af4b52;
+}
+
+.warning-row {
+    vertical-align: middle;
+}
+
+.large-red-warning-text {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+
+    color: #af4b52;
+}
+
+.medium-light-warning-text {
+    display: flex;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'OpenSans', 'Open Sans';
+    font-size: 16px;
+    text-align: left;
+    font-style: italic;
+}
+
+.debug-green-border {
+    border: 1px solid green;
+}
+
+.debug-blue-border {
+    border: 1px solid blue;
+}
+
+.process-confirm {
+    color: #ffffff;
+}
+
+.section-label {
+    font-family: 'OpenSans', 'Open Sans';
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.section-value {
+    font-family: 'OpenSans', 'Open Sans';
+    font-size: 13px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.flex-align-center {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.div-w200 {
+    min-width: 200px;
+}

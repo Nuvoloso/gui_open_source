@@ -1,0 +1,25 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+.error-boundary {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.error-boundary-icon {
+    color: rgba(var(--critical-red-rgb), 0.7);
+    margin-top: 25px;
+}
+
+.error-boundary-title {
+    font-size: 36px;
+    margin-top: 5px;
+}
+
+.error-boundary-subtitle {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.error-boundary-details {
+    margin-top: 15px;
+    white-space: pre-wrap;
+}

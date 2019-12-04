@@ -1,0 +1,17 @@
+.periodbuttons {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.periodNav {
+    justify-content: center;
+}
+
+.periodNavButtons {
+    display: inline-block;
+    min-width: 20px;
+}
+
+.periodChange {
+    padding: 4px;
+}

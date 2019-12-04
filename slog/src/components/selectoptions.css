@@ -1,0 +1,121 @@
+/* Copyright Nuvoloso.com, 2019 */
+
+/*
+ * Needed to keep the dropdown from being hidden by other components.
+ */
+.select-options__menu {
+    z-index: 100 !important;
+}
+
+/*
+ * Recover select options
+ */
+
+.dark .select-options__control {
+    background-color: rgba(6, 27, 47, 0.5);
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+.dark .select-options__control-is-focused {
+    background-color: rgba(255, 255, 255, 0.07);
+    box-shadow: inset 0 -1px 0 0 #1298d3;
+}
+
+.dark .select-options__control:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+    box-shadow: inset 0 -1px 0 0 #1298d3;
+}
+
+.dark .select-options__indicator-separator {
+    background-color: rgba(6, 27, 47, 0.5);
+}
+
+.dark .select-options__single-value {
+    opacity: 0.7;
+    font-family: OpenSans, 'Open Sans';
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.dark .select-options__dropdown-indicator {
+    opacity: 0.7;
+    font-family: material;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.dark .select-options__option--is-focused,
+.dark .select-options__option.select-options__option--is-focused {
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.dark .select-options__option--is-selected {
+    color: #56c6f2;
+}
+
+.dark .select-options__menu-list,
+.dark .select-options__option {
+    background-color: #183149;
+}
+
+.dark .select-options__option:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.dark .select-options__menu {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 1px;
+}
+
+.dark .select-options__menu,
+.dark .select-options__input {
+    color: rgba(255, 255, 255, 1);
+}
+
+.dark .select-options__multi-value {
+    border-radius: 2px;
+    background-color: #5a7ba3;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    text-align: left;
+}
+
+.dark .select-options__multi-value__label {
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 4px;
+    padding-top: 2px;
+}
+
+.dark .select-options__multi-value__remove:hover {
+    background-color: rgba(212, 81, 85, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.dark .select-options__control--is-disabled {
+    background-color: rgba(6, 27, 47, 0.25);
+    cursor: not-allowed;
+}
+
+.dark .select-options__multi-value--is-disabled,
+.dark .select-options__multi-value--is-disabled .select-options__multi-value__label {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.select-options__multi-value--is-disabled .select-options__multi-value__remove {
+    display: none;
+}
+
+.select-options__multi-value--is-disabled .select-options__multi-value__label {
+    padding-right: 6px;
+}

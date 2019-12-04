@@ -1,0 +1,56 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "jest": true,
+        "mocha": true
+    },
+    "globals": {
+        "cy": true,
+        "Cypress": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "rules": {
+        "constructor-super": "warn",
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "no-var": "warn",
+        "valid-typeof": "warn",
+        "header/header": [2, "line", { "pattern": "Copyright Nuvoloso.com, \\d{4}$" }],
+        "eqeqeq": ["error", "always"],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+        // "react/no-unused-prop-types": "error"
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "plugins": ["prettier", "react", "jsx-a11y", "import", "header"],
+    "overrides": [
+        {
+            "files": ["src/*", "cypress/integration/nuvoloso/*"]
+        }
+    ],
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "16.3",
+            "flowVersion": "0.53"
+        },
+        "propWrapperFunctions": [
+            "forbidExtraProps",
+            { "property": "freeze", "object": "Object" },
+            { "property": "myFavoriteWrapper" }
+        ]
+    }
+}
